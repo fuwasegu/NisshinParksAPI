@@ -11,7 +11,7 @@ http://opendata.city.nisshin.lg.jp/dataset/p_8006_8006
 以下を実行
 ```
 $ git clone git@github.com:lunain84/NisshinParksAPI.git
-$docker run --rm \
+$ docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/opt \
     -w /opt \
